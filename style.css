@@ -1,0 +1,192 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Times New Roman' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* First page */
+
+.first{
+    background-color: #1F2937;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 0 160px;
+}
+
+.first-page{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 160px 170px 160px;
+    gap: 30px;
+}
+
+.first-subpage{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.first-img{
+    width: 400px;
+    height: 350px;
+    flex: 1 1 40%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    width: 84px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    cursor: pointer;
+}
+
+.button{
+    font-weight: bold;
+}
+
+h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+
+
+
+/* Second Page */
+
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 50px 120px 50px;
+}
+
+.second-page{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.second-subpage{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.second-img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+
+
+
+/* Third Page */
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 340px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+
+    font-size: 36px;
+    color: #4c5055;
+    font-style: light italic;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 50px 10px auto;
+}
+
+
+
+
+/* Fourth Page */
+
+.fourth-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 120px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    margin: 100px 150px;
+    padding: 0 20px;
+}
+
+.call-to-action{
+    display: block;
+}
+
+#second-button{
+    border: 1.5px solid #F9FAF8;
+}
+
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    font-size: 14px;
+}
